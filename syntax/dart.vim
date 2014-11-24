@@ -98,6 +98,10 @@ highlight default link dartCoreClasses     Type
 highlight default link dartCoreTypedefs    Typedef
 highlight default link dartCoreExceptions  Exception
 
+" Highlight groups for errors
+highlight default Dart_Error ctermbg=DarkRed ctermfg=Red cterm=bold guibg=DarkRed guifg=Red gui=bold
+highlight default Dart_Warning ctermbg=Yellow ctermfg=DarkYellow cterm=bold guibg=Yellow guifg=DarkYellow gui=bold
+
 let b:current_syntax = "dart"
 let b:spell_options = "contained"
 
